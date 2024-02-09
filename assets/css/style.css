@@ -137,6 +137,24 @@ h6 {
   padding-right: 30px;
 }
 
+.profile p {
+  font-size: 18px;
+  margin-bottom: 10px; /* Aumenta el espacio entre los párrafos */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: #fff; /* Cambia el color del texto a blanco */
+  text-align: center; /* Alinea el texto al centro */
+
+}
+.cv-button {
+  text-align: center; /* Alinea el contenido al centro */
+}
+
+.cv-button .btn {
+  display: inline-block; /* Hace que el botón sea un elemento en línea */
+}
+
 @media (max-width: 1199px) {
   #header {
     left: -300px;
@@ -151,6 +169,7 @@ h6 {
     padding-left: 12px;
     padding-right: 12px;
   }
+
 }
 
 /*--------------------------------------------------------------
